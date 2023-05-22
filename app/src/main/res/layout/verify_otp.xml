@@ -1,0 +1,74 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_x="0dp"
+    android:layout_y="0dp">
+
+    <TextView
+        android:id="@+id/countryCode"
+        android:layout_width="101dp"
+        android:layout_height="60dp"
+        android:layout_x="32dp"
+        android:layout_y="100dp"
+        android:backgroundTint="@android:color/transparent"
+        android:text="+91"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/phoneNumber"
+        android:layout_width="228dp"
+        android:layout_height="60dp"
+        android:layout_x="153dp"
+        android:layout_y="102dp"
+        android:backgroundTint="@android:color/transparent"
+        android:text="9999999999"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewPhoneNumber"
+        android:layout_width="199dp"
+        android:layout_height="87dp"
+        android:layout_x="33dp"
+        android:layout_y="191dp"
+        android:background="@null"
+        android:text="Enter The OTP"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editOTPNumber"
+        android:layout_width="133dp"
+        android:layout_height="56dp"
+        android:layout_x="45dp"
+        android:layout_y="317dp"
+        android:background="@null"
+        android:text="9999"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnContinueToFeed"
+        android:layout_width="164dp"
+        android:layout_height="66dp"
+        android:layout_x="32dp"
+        android:layout_y="412dp"
+        android:backgroundTint="#FFFF00"
+        android:text="Continue"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextClock
+        android:id="@+id/timerTextView"
+        android:layout_width="107dp"
+        android:layout_height="63dp"
+        android:layout_x="220dp"
+        android:layout_y="418dp"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+</AbsoluteLayout>
